@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"chat.customAgentInSubagent.enabled": true,
+		"chat.tools.terminal.autoApprove": {
+			"dotnet build": true,
+			"dotnet run": true,
+			"dotnet test": true,
+			"dotnet restore": true
+		},
+		"github.copilot.chat.githubMcpServer.enabled": true,
+		"github.copilot.chat.githubMcpServer.toolsets": [
+			"repos,issues,pull_requests,code_search,copilot,web_search"
+		],
+		"chat.viewSessions.enabled": true
+	}
+}
